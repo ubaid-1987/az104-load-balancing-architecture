@@ -10,7 +10,7 @@ This repository contains my configuration steps, rule validation, and architectu
   * Configured the Web Application Firewall in **Prevention Mode** to actively block and drop common vulnerabilities (SQL Injection, Cross-Site Scripting) before traffic hits the backend.
   * Managed SSL/TLS termination to offload decryption overhead from backend Virtual Machines.
 
-![Application Gateway Setup](YOUR_APP_GATEWAY_IMAGE.png)
+![Application Gateway Setup](web services for VM.png)
 
 ---
 
@@ -20,4 +20,4 @@ This repository contains my configuration steps, rule validation, and architectu
   * **Public Load Balancer:** Configured with a public-facing Frontend IP to distribute external internet connections evenly onto the application web nodes.
   * **Internal Load Balancer (ILB):** Set up a strictly hidden load balancer using a private VNet IP address (`10.x.x.x`) to distribute internal database queries across backend SQL VM clusters, maintaining a strict network security boundary.
 
-![Azure Load Balancer Configuration](YOUR_LOAD_BALANCER_IMAGE.png)
+![Azure Load Balancer Configuration](Screenshot_1.png)
