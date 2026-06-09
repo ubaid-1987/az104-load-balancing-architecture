@@ -10,7 +10,7 @@ This repository contains my configuration steps, rule validation, and architectu
   * Configured the Web Application Firewall in **Prevention Mode** to actively block and drop common vulnerabilities (SQL Injection, Cross-Site Scripting) before traffic hits the backend.
   * Managed SSL/TLS termination to offload decryption overhead from backend Virtual Machines.
 
-![Application Gateway Setup](web services for VM.png)
+![Application Gateway Setup]Screenshot_2.png)
 
 ---
 
